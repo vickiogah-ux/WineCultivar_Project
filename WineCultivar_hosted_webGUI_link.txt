@@ -1,0 +1,64 @@
+======================================================
+WINE CULTIVAR ORIGIN PREDICTION SYSTEM
+Submission Details
+======================================================
+
+Name: Ogah Victor
+Matric Number: 22CG031902
+Machine Learning Algorithm Used: Random Forest Classifier
+Model Persistence Method: Joblib (.pkl)
+
+GitHub Repository Link: 
+[TO BE FILLED - see instructions below]
+
+Live URL of Hosted Application:
+[TO BE FILLED - see instructions below]
+
+======================================================
+INSTRUCTIONS FOR COMPLETION
+======================================================
+
+1. TRAIN THE MODEL IN GOOGLE COLAB:
+   - Upload model/model_building.ipynb to Google Colab
+   - Run all cells to train the model
+   - Download these files and place in /model directory:
+     * wine_cultivar_model.pkl
+     * scaler.pkl
+     * features.pkl
+
+2. CREATE GITHUB REPOSITORY:
+   - Create a new GitHub repository named: WineCultivar_Project_OgahVictor_22CG031902
+   - Push all project files to the repository
+   - Copy your GitHub URL and paste it in the "GitHub Repository Link" field above
+
+3. DEPLOY TO RENDER:
+   - Go to https://render.com
+   - Sign up/login with GitHub account
+   - Create new "Web Service"
+   - Connect your GitHub repository
+   - Set Build Command: pip install -r requirements.txt
+   - Set Start Command: streamlit run app.py --server.port=10000
+   - Deploy and copy your live URL to the field above
+
+4. UPDATE THIS FILE:
+   - Add your GitHub repository URL
+   - Add your Render deployment live URL
+   - Save and submit
+
+======================================================
+PROJECT STRUCTURE
+======================================================
+
+/WineCultivar_Project_OgahVictor_22CG031902/
+|- app.py                                    (Main Streamlit application)
+|- requirements.txt                          (Project dependencies)
+|- WineCultivar_hosted_webGUI_link.txt      (This file)
+|- /model/
+   |- model_building.ipynb                  (Model training notebook)
+   |- wine_cultivar_model.pkl               (Trained model)
+   |- scaler.pkl                            (Feature scaler)
+   |- features.pkl                          (Feature names)
+|- /static/                                  (CSS/Static files)
+|- /templates/                               (HTML templates if applicable)
+
+======================================================
