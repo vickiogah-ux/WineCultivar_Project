@@ -9,10 +9,10 @@ Machine Learning Algorithm Used: Random Forest Classifier
 Model Persistence Method: Joblib (.pkl)
 
 GitHub Repository Link: 
-[TO BE FILLED - see instructions below]
+https://github.com/vickiogah-ux/WineCultivar_Project
 
 Live URL of Hosted Application:
-[TO BE FILLED - see instructions below]
+https://winecultivar-project-2.onrender.com
 
 ======================================================
 INSTRUCTIONS FOR COMPLETION
